@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Lab2_questioner.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Lab2_questioner.AppWidgetContainer">
+
+    <LinearLayout
+        android:id="@+id/widget_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/light_gray">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/widget_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you studying tonight?"
+                android:textColor="@color/crimson"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/widget_yes_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="@color/crimson"/>
+            <Button
+                android:id="@+id/widget_no_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="@color/crimson" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
